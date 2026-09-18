@@ -6,41 +6,83 @@
 
 | Platform | Problems |
 | :--- | :--- |
-| Codeforces | 3 |
-| **Total** | **3** |
+| Codeforces | 11 |
+| **Total** | **11** |
 
 ---
 
 ## Codeforces
 
-- [greedy](#codeforces-greedy) (1)
-- [implementation](#codeforces-implementation) (1)
-- [math](#codeforces-math) (2)
-- [sortings](#codeforces-sortings) (2)
+- [brute force](#codeforces-brute-force) (2)
+- [constructive algorithms](#codeforces-constructive-algorithms) (1)
+- [games](#codeforces-games) (1)
+- [geometry](#codeforces-geometry) (1)
+- [greedy](#codeforces-greedy) (6)
+- [implementation](#codeforces-implementation) (3)
+- [math](#codeforces-math) (7)
+- [sortings](#codeforces-sortings) (3)
+
+### Codeforces: brute force
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Slimes-on-a-Line) | 2026-09-18 |
+| [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Integer-Problem) | 2026-09-18 |
+
+### Codeforces: constructive algorithms
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Permutation-Problem) | 2026-09-18 |
+
+### Codeforces: games
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Integer-Problem) | 2026-09-18 |
+
+### Codeforces: geometry
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Lasers](https://codeforces.com/contest/2148/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Lasers) | 2026-09-18 |
 
 ### Codeforces: greedy
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Absolute-Cinema) | 2026-09-18 |
+| [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Blocked) | 2026-09-18 |
+| [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1000/Flip-the-Bit-Easy-Version) | 2026-09-18 |
+| [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Slimes-on-a-Line) | 2026-09-18 |
+| [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-6-7-Integer-Problem) | 2026-09-18 |
+| [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Permutation-Problem) | 2026-09-18 |
 
 ### Codeforces: implementation
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1000/Flip-the-Bit-Easy-Version) | 2026-09-18 |
 | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Riptide) | 2026-09-18 |
+| [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Integer-Problem) | 2026-09-18 |
 
 ### Codeforces: math
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Absolute-Cinema) | 2026-09-18 |
+| [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Slimes-on-a-Line) | 2026-09-18 |
+| [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-6-7-Integer-Problem) | 2026-09-18 |
+| [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Integer-Problem) | 2026-09-18 |
+| [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Permutation-Problem) | 2026-09-18 |
+| [The Equalizer](https://codeforces.com/contest/2217/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-Equalizer) | 2026-09-18 |
 | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Three-Numbers-on-the-Blackboard) | 2026-09-18 |
 
 ### Codeforces: sortings
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Blocked) | 2026-09-18 |
 | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Riptide) | 2026-09-18 |
 | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Three-Numbers-on-the-Blackboard) | 2026-09-18 |
 
