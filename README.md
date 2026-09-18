@@ -6,30 +6,42 @@
 
 | Platform | Problems |
 | :--- | :--- |
-| Codeforces | 19 |
-| **Total** | **19** |
+| Codeforces | 27 |
+| **Total** | **27** |
 
 ---
 
 ## Codeforces
 
-- [brute force](#codeforces-brute-force) (3)
-- [constructive algorithms](#codeforces-constructive-algorithms) (3)
+- [*special](#codeforces-special) (1)
+- [brute force](#codeforces-brute-force) (5)
+- [constructive algorithms](#codeforces-constructive-algorithms) (5)
 - [data structures](#codeforces-data-structures) (1)
+- [dp](#codeforces-dp) (1)
 - [games](#codeforces-games) (1)
 - [geometry](#codeforces-geometry) (1)
-- [greedy](#codeforces-greedy) (8)
+- [greedy](#codeforces-greedy) (9)
 - [hashing](#codeforces-hashing) (1)
-- [implementation](#codeforces-implementation) (6)
-- [math](#codeforces-math) (11)
+- [implementation](#codeforces-implementation) (10)
+- [math](#codeforces-math) (14)
+- [number theory](#codeforces-number-theory) (1)
 - [sortings](#codeforces-sortings) (7)
-- [strings](#codeforces-strings) (1)
+- [string suffix structures](#codeforces-string-suffix-structures) (1)
+- [strings](#codeforces-strings) (2)
 - [two pointers](#codeforces-two-pointers) (1)
+
+### Codeforces: *special
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Piecing It Together](https://codeforces.com/contest/2095/problem/A) | Unknown | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/Uncategorized/Piecing-It-Together) | 2026-09-18 |
 
 ### Codeforces: brute force
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Passing-the-Ball) | 2026-09-18 |
+| [Simons and Making It Beautiful](https://codeforces.com/contest/2205/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Simons-and-Making-It-Beautiful) | 2026-09-18 |
 | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Slimes-on-a-Line) | 2026-09-18 |
 | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Sublime-Sequence) | 2026-09-18 |
 | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Integer-Problem) | 2026-09-18 |
@@ -38,8 +50,10 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/A-Simple-Sequence) | 2026-09-18 |
 | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Isamatdin-and-His-Magic-Wand) | 2026-09-18 |
 | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Perfect-Root) | 2026-09-18 |
+| [Simons and Making It Beautiful](https://codeforces.com/contest/2205/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Simons-and-Making-It-Beautiful) | 2026-09-18 |
 | [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Permutation-Problem) | 2026-09-18 |
 
 ### Codeforces: data structures
@@ -47,6 +61,12 @@
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1100/OutOfMemoryError) | 2026-09-18 |
+
+### Codeforces: dp
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/A-Simple-Sequence) | 2026-09-18 |
 
 ### Codeforces: games
 
@@ -64,6 +84,7 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/A-Simple-Sequence) | 2026-09-18 |
 | [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Absolute-Cinema) | 2026-09-18 |
 | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Blocked) | 2026-09-18 |
 | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1000/Flip-the-Bit-Easy-Version) | 2026-09-18 |
@@ -83,11 +104,15 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Antimedian Deletion](https://codeforces.com/contest/2211/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Antimedian-Deletion) | 2026-09-18 |
 | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1000/Flip-the-Bit-Easy-Version) | 2026-09-18 |
+| [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/900/Football) | 2026-09-18 |
 | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Isamatdin-and-His-Magic-Wand) | 2026-09-18 |
 | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1100/OutOfMemoryError) | 2026-09-18 |
+| [Passing the Ball](https://codeforces.com/contest/2204/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Passing-the-Ball) | 2026-09-18 |
 | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Riptide) | 2026-09-18 |
 | [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/900/Shifted-MEX) | 2026-09-18 |
+| [Simons and Cakes for Success](https://codeforces.com/contest/2205/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Simons-and-Cakes-for-Success) | 2026-09-18 |
 | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Integer-Problem) | 2026-09-18 |
 
 ### Codeforces: math
@@ -95,8 +120,11 @@
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Absolute-Cinema) | 2026-09-18 |
+| [Antimedian Deletion](https://codeforces.com/contest/2211/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Antimedian-Deletion) | 2026-09-18 |
 | [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1100/OutOfMemoryError) | 2026-09-18 |
+| [Parkour Design](https://codeforces.com/contest/2202/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Parkour-Design) | 2026-09-18 |
 | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Perfect-Root) | 2026-09-18 |
+| [Simons and Cakes for Success](https://codeforces.com/contest/2205/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Simons-and-Cakes-for-Success) | 2026-09-18 |
 | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Slimes-on-a-Line) | 2026-09-18 |
 | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Square) | 2026-09-18 |
 | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Sublime-Sequence) | 2026-09-18 |
@@ -105,6 +133,12 @@
 | [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Permutation-Problem) | 2026-09-18 |
 | [The Equalizer](https://codeforces.com/contest/2217/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-Equalizer) | 2026-09-18 |
 | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Three-Numbers-on-the-Blackboard) | 2026-09-18 |
+
+### Codeforces: number theory
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [A Simple Sequence](https://codeforces.com/contest/2210/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/A-Simple-Sequence) | 2026-09-18 |
 
 ### Codeforces: sortings
 
@@ -118,10 +152,17 @@
 | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Three-Numbers-on-the-Blackboard) | 2026-09-18 |
 | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Your-Name) | 2026-09-18 |
 
+### Codeforces: string suffix structures
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Piecing It Together](https://codeforces.com/contest/2095/problem/A) | Unknown | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/Uncategorized/Piecing-It-Together) | 2026-09-18 |
+
 ### Codeforces: strings
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/900/Football) | 2026-09-18 |
 | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Your-Name) | 2026-09-18 |
 
 ### Codeforces: two pointers
