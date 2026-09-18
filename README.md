@@ -6,16 +6,23 @@
 
 | Platform | Problems |
 | :--- | :--- |
-| Codeforces | 2 |
-| **Total** | **2** |
+| Codeforces | 3 |
+| **Total** | **3** |
 
 ---
 
 ## Codeforces
 
+- [greedy](#codeforces-greedy) (1)
 - [implementation](#codeforces-implementation) (1)
-- [math](#codeforces-math) (1)
+- [math](#codeforces-math) (2)
 - [sortings](#codeforces-sortings) (2)
+
+### Codeforces: greedy
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Absolute-Cinema) | 2026-09-18 |
 
 ### Codeforces: implementation
 
@@ -27,6 +34,7 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Absolute-Cinema) | 2026-09-18 |
 | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Three-Numbers-on-the-Blackboard) | 2026-09-18 |
 
 ### Codeforces: sortings
