@@ -6,34 +6,47 @@
 
 | Platform | Problems |
 | :--- | :--- |
-| Codeforces | 11 |
-| **Total** | **11** |
+| Codeforces | 19 |
+| **Total** | **19** |
 
 ---
 
 ## Codeforces
 
-- [brute force](#codeforces-brute-force) (2)
-- [constructive algorithms](#codeforces-constructive-algorithms) (1)
+- [brute force](#codeforces-brute-force) (3)
+- [constructive algorithms](#codeforces-constructive-algorithms) (3)
+- [data structures](#codeforces-data-structures) (1)
 - [games](#codeforces-games) (1)
 - [geometry](#codeforces-geometry) (1)
-- [greedy](#codeforces-greedy) (6)
-- [implementation](#codeforces-implementation) (3)
-- [math](#codeforces-math) (7)
-- [sortings](#codeforces-sortings) (3)
+- [greedy](#codeforces-greedy) (8)
+- [hashing](#codeforces-hashing) (1)
+- [implementation](#codeforces-implementation) (6)
+- [math](#codeforces-math) (11)
+- [sortings](#codeforces-sortings) (7)
+- [strings](#codeforces-strings) (1)
+- [two pointers](#codeforces-two-pointers) (1)
 
 ### Codeforces: brute force
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Slimes-on-a-Line) | 2026-09-18 |
+| [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Sublime-Sequence) | 2026-09-18 |
 | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Integer-Problem) | 2026-09-18 |
 
 ### Codeforces: constructive algorithms
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Isamatdin-and-His-Magic-Wand) | 2026-09-18 |
+| [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Perfect-Root) | 2026-09-18 |
 | [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Permutation-Problem) | 2026-09-18 |
+
+### Codeforces: data structures
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1100/OutOfMemoryError) | 2026-09-18 |
 
 ### Codeforces: games
 
@@ -54,16 +67,27 @@
 | [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Absolute-Cinema) | 2026-09-18 |
 | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Blocked) | 2026-09-18 |
 | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1000/Flip-the-Bit-Easy-Version) | 2026-09-18 |
+| [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Isamatdin-and-His-Magic-Wand) | 2026-09-18 |
+| [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Prefix-Max) | 2026-09-18 |
 | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Slimes-on-a-Line) | 2026-09-18 |
 | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-6-7-Integer-Problem) | 2026-09-18 |
 | [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Permutation-Problem) | 2026-09-18 |
+
+### Codeforces: hashing
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Sublime-Sequence) | 2026-09-18 |
 
 ### Codeforces: implementation
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Flip the Bit (Easy Version)](https://codeforces.com/contest/2217/problem/B) | 1000 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1000/Flip-the-Bit-Easy-Version) | 2026-09-18 |
+| [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Isamatdin-and-His-Magic-Wand) | 2026-09-18 |
+| [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1100/OutOfMemoryError) | 2026-09-18 |
 | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Riptide) | 2026-09-18 |
+| [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/900/Shifted-MEX) | 2026-09-18 |
 | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Integer-Problem) | 2026-09-18 |
 
 ### Codeforces: math
@@ -71,7 +95,11 @@
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Absolute Cinema](https://codeforces.com/contest/2229/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Absolute-Cinema) | 2026-09-18 |
+| [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1100/OutOfMemoryError) | 2026-09-18 |
+| [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Perfect-Root) | 2026-09-18 |
 | [Slimes on a Line](https://codeforces.com/contest/2229/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Slimes-on-a-Line) | 2026-09-18 |
+| [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Square) | 2026-09-18 |
+| [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Sublime-Sequence) | 2026-09-18 |
 | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-6-7-Integer-Problem) | 2026-09-18 |
 | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Integer-Problem) | 2026-09-18 |
 | [The 67th Permutation Problem](https://codeforces.com/contest/2218/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/The-67th-Permutation-Problem) | 2026-09-18 |
@@ -83,6 +111,22 @@
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Blocked](https://codeforces.com/contest/2220/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Blocked) | 2026-09-18 |
+| [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Isamatdin-and-His-Magic-Wand) | 2026-09-18 |
 | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Riptide) | 2026-09-18 |
+| [Shifted MEX](https://codeforces.com/contest/2185/problem/C) | 900 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/900/Shifted-MEX) | 2026-09-18 |
+| [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Square) | 2026-09-18 |
 | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Three-Numbers-on-the-Blackboard) | 2026-09-18 |
+| [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Your-Name) | 2026-09-18 |
+
+### Codeforces: strings
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Your-Name) | 2026-09-18 |
+
+### Codeforces: two pointers
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [OutOfMemoryError](https://codeforces.com/contest/2185/problem/D) | 1100 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/1100/OutOfMemoryError) | 2026-09-18 |
 
