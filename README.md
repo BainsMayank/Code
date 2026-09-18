@@ -6,15 +6,22 @@
 
 | Platform | Problems |
 | :--- | :--- |
-| Codeforces | 1 |
-| **Total** | **1** |
+| Codeforces | 2 |
+| **Total** | **2** |
 
 ---
 
 ## Codeforces
 
+- [implementation](#codeforces-implementation) (1)
 - [math](#codeforces-math) (1)
-- [sortings](#codeforces-sortings) (1)
+- [sortings](#codeforces-sortings) (2)
+
+### Codeforces: implementation
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Riptide) | 2026-09-18 |
 
 ### Codeforces: math
 
@@ -26,5 +33,6 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Riptide) | 2026-09-18 |
 | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/Codeforces/800/Three-Numbers-on-the-Blackboard) | 2026-09-18 |
 
