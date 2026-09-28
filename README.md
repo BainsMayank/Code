@@ -7,8 +7,8 @@
 | Platform | Problems |
 | :--- | :--- |
 | Codeforces | 27 |
-| LeetCode | 19 |
-| **Total** | **46** |
+| LeetCode | 22 |
+| **Total** | **49** |
 
 ---
 
@@ -174,24 +174,27 @@
 
 ## LeetCode
 
-- [Array](#leetcode-array) (15)
+- [Array](#leetcode-array) (18)
 - [Binary Search](#leetcode-binary-search) (3)
 - [Bit Manipulation](#leetcode-bit-manipulation) (1)
 - [Boyer–Moore Majority Vote Algorithm](#leetcode-boyermoore-majority-vote-algorithm) (1)
 - [Bubble Sort](#leetcode-bubble-sort) (1)
 - [Counting](#leetcode-counting) (2)
 - [Divide and Conquer](#leetcode-divide-and-conquer) (1)
+- [Dynamic Programming](#leetcode-dynamic-programming) (1)
 - [Enumeration](#leetcode-enumeration) (1)
 - [Greedy](#leetcode-greedy) (1)
-- [Hash Table](#leetcode-hash-table) (3)
+- [Hash Table](#leetcode-hash-table) (5)
 - [Math](#leetcode-math) (5)
 - [Matrix](#leetcode-matrix) (1)
+- [Prefix Sum](#leetcode-prefix-sum) (1)
 - [Quicksort](#leetcode-quicksort) (1)
 - [Simulation](#leetcode-simulation) (1)
 - [Sorting](#leetcode-sorting) (2)
 - [String](#leetcode-string) (3)
 - [Trie](#leetcode-trie) (1)
 - [Two Pointers](#leetcode-two-pointers) (5)
+- [Union-Find](#leetcode-union-find) (1)
 
 ### LeetCode: Array
 
@@ -200,10 +203,12 @@
 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Search) | 2026-09-18 |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Find-First-and-Last-Position-of-Element-in-Sorted-Array) | 2026-09-18 |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Longest-Common-Prefix) | 2026-09-18 |
+| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Consecutive-Sequence) | 2026-09-28 |
 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Majority-Element) | 2026-09-18 |
 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Max-Consecutive-Ones) | 2026-09-18 |
 | [Minimum Absolute Difference Between Two Values](https://leetcode.com/problems/minimum-absolute-difference-between-two-values/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Minimum-Absolute-Difference-Between-Two-Values) | 2026-09-18 |
 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Move-Zeroes) | 2026-09-18 |
+| [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Pascals-Triangle-II) | 2026-09-28 |
 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Rearrange-Array-Elements-by-Sign) | 2026-09-18 |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Remove-Duplicates-from-Sorted-Array) | 2026-09-18 |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Rotate-Array) | 2026-09-18 |
@@ -211,6 +216,7 @@
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Search-Insert-Position) | 2026-09-18 |
 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Single-Number) | 2026-09-18 |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-Colors) | 2026-09-18 |
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Subarray-Sum-Equals-K) | 2026-09-28 |
 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Two-Sum) | 2026-09-18 |
 
 ### LeetCode: Binary Search
@@ -252,6 +258,12 @@
 | :--- | :--- | :--- | :--- |
 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Majority-Element) | 2026-09-18 |
 
+### LeetCode: Dynamic Programming
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Pascals-Triangle-II) | 2026-09-28 |
+
 ### LeetCode: Enumeration
 
 | Problem | Difficulty | Solution | Date Solved |
@@ -268,8 +280,10 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Consecutive-Sequence) | 2026-09-28 |
 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Majority-Element) | 2026-09-18 |
 | [Mirror Frequency Distance](https://leetcode.com/problems/mirror-frequency-distance/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Mirror-Frequency-Distance) | 2026-09-18 |
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Subarray-Sum-Equals-K) | 2026-09-28 |
 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Two-Sum) | 2026-09-18 |
 
 ### LeetCode: Math
@@ -287,6 +301,12 @@
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Rotate-Image) | 2026-09-27 |
+
+### LeetCode: Prefix Sum
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Subarray-Sum-Equals-K) | 2026-09-28 |
 
 ### LeetCode: Quicksort
 
@@ -330,4 +350,10 @@
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Remove-Duplicates-from-Sorted-Array) | 2026-09-18 |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Rotate-Array) | 2026-09-18 |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-Colors) | 2026-09-18 |
+
+### LeetCode: Union-Find
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Consecutive-Sequence) | 2026-09-28 |
 
