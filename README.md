@@ -7,8 +7,8 @@
 | Platform | Problems |
 | :--- | :--- |
 | Codeforces | 28 |
-| LeetCode | 32 |
-| **Total** | **60** |
+| LeetCode | 59 |
+| **Total** | **87** |
 
 ---
 
@@ -176,33 +176,46 @@
 
 ## LeetCode
 
-- [Array](#leetcode-array) (23)
+- [Array](#leetcode-array) (27)
 - [Binary Search](#leetcode-binary-search) (4)
+- [Binary Search Tree](#leetcode-binary-search-tree) (1)
+- [Binary Tree](#leetcode-binary-tree) (8)
 - [Bit Manipulation](#leetcode-bit-manipulation) (1)
 - [Boyer–Moore Majority Vote Algorithm](#leetcode-boyermoore-majority-vote-algorithm) (2)
+- [Breadth-First Search](#leetcode-breadth-first-search) (7)
 - [Bubble Sort](#leetcode-bubble-sort) (1)
 - [Bucket Sort](#leetcode-bucket-sort) (1)
 - [Counting](#leetcode-counting) (4)
-- [Divide and Conquer](#leetcode-divide-and-conquer) (2)
+- [Depth-First Search](#leetcode-depth-first-search) (10)
+- [Divide and Conquer](#leetcode-divide-and-conquer) (3)
 - [Dynamic Programming](#leetcode-dynamic-programming) (2)
 - [Enumeration](#leetcode-enumeration) (2)
+- [Floyd's Cycle Finding Algorithm](#leetcode-floyds-cycle-finding-algorithm) (2)
+- [Graph Theory](#leetcode-graph-theory) (1)
 - [Greedy](#leetcode-greedy) (1)
-- [Hash Table](#leetcode-hash-table) (9)
+- [Hash Table](#leetcode-hash-table) (13)
 - [Heap (Priority Queue)](#leetcode-heap-priority-queue) (1)
-- [Math](#leetcode-math) (6)
-- [Matrix](#leetcode-matrix) (2)
+- [Linked List](#leetcode-linked-list) (13)
+- [Math](#leetcode-math) (7)
+- [Matrix](#leetcode-matrix) (5)
+- [Merge Sort](#leetcode-merge-sort) (1)
+- [Monotonic Stack](#leetcode-monotonic-stack) (1)
 - [Number Theory](#leetcode-number-theory) (1)
-- [Prefix Sum](#leetcode-prefix-sum) (1)
+- [Prefix Sum](#leetcode-prefix-sum) (2)
 - [Primality Test](#leetcode-primality-test) (1)
 - [Prime Number Sieve](#leetcode-prime-number-sieve) (1)
 - [Quicksort](#leetcode-quicksort) (1)
+- [Recursion](#leetcode-recursion) (4)
 - [Sieve Theory](#leetcode-sieve-theory) (1)
 - [Simulation](#leetcode-simulation) (2)
-- [Sorting](#leetcode-sorting) (5)
-- [String](#leetcode-string) (8)
+- [Sorting](#leetcode-sorting) (6)
+- [Stack](#leetcode-stack) (5)
+- [String](#leetcode-string) (9)
+- [String Matching](#leetcode-string-matching) (1)
+- [Tree](#leetcode-tree) (8)
 - [Trie](#leetcode-trie) (1)
-- [Two Pointers](#leetcode-two-pointers) (7)
-- [Union-Find](#leetcode-union-find) (1)
+- [Two Pointers](#leetcode-two-pointers) (15)
+- [Union-Find](#leetcode-union-find) (4)
 
 ### LeetCode: Array
 
@@ -211,14 +224,18 @@
 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Search) | 2026-09-18 |
 | [Count Primes](https://leetcode.com/problems/count-primes/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Count-Primes) | 2026-10-12 |
 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Find-First-and-Last-Position-of-Element-in-Sorted-Array) | 2026-09-18 |
+| [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Flood-Fill) | 2026-10-18 |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Longest-Common-Prefix) | 2026-09-18 |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Consecutive-Sequence) | 2026-09-28 |
+| [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Well-Performing-Interval) | 2026-10-18 |
 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Majority-Element) | 2026-09-18 |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Majority-Element-II) | 2026-10-14 |
 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Max-Consecutive-Ones) | 2026-09-18 |
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Hard/Median-of-Two-Sorted-Arrays) | 2026-10-15 |
 | [Minimum Absolute Difference Between Two Values](https://leetcode.com/problems/minimum-absolute-difference-between-two-values/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Minimum-Absolute-Difference-Between-Two-Values) | 2026-09-18 |
 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Move-Zeroes) | 2026-09-18 |
+| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Enclaves) | 2026-10-18 |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Islands) | 2026-10-18 |
 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Pascals-Triangle) | 2026-10-14 |
 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Pascals-Triangle-II) | 2026-09-28 |
 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Rearrange-Array-Elements-by-Sign) | 2026-09-18 |
@@ -241,6 +258,25 @@
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Hard/Median-of-Two-Sorted-Arrays) | 2026-10-15 |
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Search-Insert-Position) | 2026-09-18 |
 
+### LeetCode: Binary Search Tree
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Search-in-a-Binary-Search-Tree) | 2026-10-17 |
+
+### LeetCode: Binary Tree
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Balanced-Binary-Tree) | 2026-10-17 |
+| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Inorder-Traversal) | 2026-10-16 |
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Binary-Tree-Level-Order-Traversal) | 2026-10-16 |
+| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Postorder-Traversal) | 2026-10-16 |
+| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Preorder-Traversal) | 2026-10-16 |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Maximum-Depth-of-Binary-Tree) | 2026-10-17 |
+| [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Same-Tree) | 2026-10-17 |
+| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Search-in-a-Binary-Search-Tree) | 2026-10-17 |
+
 ### LeetCode: Bit Manipulation
 
 | Problem | Difficulty | Solution | Date Solved |
@@ -253,6 +289,18 @@
 | :--- | :--- | :--- | :--- |
 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Majority-Element) | 2026-09-18 |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Majority-Element-II) | 2026-10-14 |
+
+### LeetCode: Breadth-First Search
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Binary-Tree-Level-Order-Traversal) | 2026-10-16 |
+| [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Flood-Fill) | 2026-10-18 |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Maximum-Depth-of-Binary-Tree) | 2026-10-17 |
+| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Enclaves) | 2026-10-18 |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Islands) | 2026-10-18 |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Provinces) | 2026-10-18 |
+| [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Same-Tree) | 2026-10-17 |
 
 ### LeetCode: Bubble Sort
 
@@ -275,12 +323,28 @@
 | [Mirror Frequency Distance](https://leetcode.com/problems/mirror-frequency-distance/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Mirror-Frequency-Distance) | 2026-09-18 |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-Characters-By-Frequency) | 2026-10-12 |
 
+### LeetCode: Depth-First Search
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Balanced-Binary-Tree) | 2026-10-17 |
+| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Inorder-Traversal) | 2026-10-16 |
+| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Postorder-Traversal) | 2026-10-16 |
+| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Preorder-Traversal) | 2026-10-16 |
+| [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Flood-Fill) | 2026-10-18 |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Maximum-Depth-of-Binary-Tree) | 2026-10-17 |
+| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Enclaves) | 2026-10-18 |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Islands) | 2026-10-18 |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Provinces) | 2026-10-18 |
+| [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Same-Tree) | 2026-10-17 |
+
 ### LeetCode: Divide and Conquer
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Majority-Element) | 2026-09-18 |
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Hard/Median-of-Two-Sorted-Arrays) | 2026-10-15 |
+| [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-List) | 2026-10-17 |
 
 ### LeetCode: Dynamic Programming
 
@@ -296,6 +360,19 @@
 | [Count Primes](https://leetcode.com/problems/count-primes/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Count-Primes) | 2026-10-12 |
 | [Minimum Absolute Difference Between Two Values](https://leetcode.com/problems/minimum-absolute-difference-between-two-values/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Minimum-Absolute-Difference-Between-Two-Values) | 2026-09-18 |
 
+### LeetCode: Floyd's Cycle Finding Algorithm
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Linked-List-Cycle) | 2026-10-17 |
+| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Linked-List-Cycle-II) | 2026-10-17 |
+
+### LeetCode: Graph Theory
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Provinces) | 2026-10-18 |
+
 ### LeetCode: Greedy
 
 | Problem | Difficulty | Solution | Date Solved |
@@ -306,8 +383,12 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Intersection-of-Two-Linked-Lists) | 2026-10-17 |
 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Isomorphic-Strings) | 2026-10-12 |
+| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Linked-List-Cycle) | 2026-10-17 |
+| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Linked-List-Cycle-II) | 2026-10-17 |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Consecutive-Sequence) | 2026-09-28 |
+| [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Well-Performing-Interval) | 2026-10-18 |
 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Majority-Element) | 2026-09-18 |
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Majority-Element-II) | 2026-10-14 |
 | [Mirror Frequency Distance](https://leetcode.com/problems/mirror-frequency-distance/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Mirror-Frequency-Distance) | 2026-09-18 |
@@ -322,10 +403,29 @@
 | :--- | :--- | :--- | :--- |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-Characters-By-Frequency) | 2026-10-12 |
 
+### LeetCode: Linked List
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Add-Two-Numbers) | 2026-10-17 |
+| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Delete-Node-in-a-Linked-List) | 2026-10-17 |
+| [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Delete-the-Middle-Node-of-a-Linked-List) | 2026-10-17 |
+| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Intersection-of-Two-Linked-Lists) | 2026-10-17 |
+| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Linked-List-Cycle) | 2026-10-17 |
+| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Linked-List-Cycle-II) | 2026-10-17 |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Merge-Two-Sorted-Lists) | 2026-10-17 |
+| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Middle-of-the-Linked-List) | 2026-10-17 |
+| [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Odd-Even-Linked-List) | 2026-10-17 |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Palindrome-Linked-List) | 2026-10-17 |
+| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Remove-Nth-Node-From-End-of-List) | 2026-10-17 |
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Reverse-Linked-List) | 2026-10-17 |
+| [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-List) | 2026-10-17 |
+
 ### LeetCode: Math
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Add-Two-Numbers) | 2026-10-17 |
 | [Count Primes](https://leetcode.com/problems/count-primes/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Count-Primes) | 2026-10-12 |
 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Largest-Odd-Number-in-String) | 2026-09-18 |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Palindrome-Number) | 2026-09-18 |
@@ -337,8 +437,23 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Flood-Fill) | 2026-10-18 |
+| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Enclaves) | 2026-10-18 |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Islands) | 2026-10-18 |
 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Rotate-Image) | 2026-09-27 |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Spiral-Matrix) | 2026-10-14 |
+
+### LeetCode: Merge Sort
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-List) | 2026-10-17 |
+
+### LeetCode: Monotonic Stack
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Well-Performing-Interval) | 2026-10-18 |
 
 ### LeetCode: Number Theory
 
@@ -350,6 +465,7 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Well-Performing-Interval) | 2026-10-18 |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Subarray-Sum-Equals-K) | 2026-09-28 |
 
 ### LeetCode: Primality Test
@@ -369,6 +485,15 @@
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-Colors) | 2026-09-18 |
+
+### LeetCode: Recursion
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Add-Two-Numbers) | 2026-10-17 |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Merge-Two-Sorted-Lists) | 2026-10-17 |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Palindrome-Linked-List) | 2026-10-17 |
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Reverse-Linked-List) | 2026-10-17 |
 
 ### LeetCode: Sieve Theory
 
@@ -391,7 +516,18 @@
 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Majority-Element-II) | 2026-10-14 |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-Characters-By-Frequency) | 2026-10-12 |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-Colors) | 2026-09-18 |
+| [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-List) | 2026-10-17 |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Valid-Anagram) | 2026-10-12 |
+
+### LeetCode: Stack
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Inorder-Traversal) | 2026-10-16 |
+| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Postorder-Traversal) | 2026-10-16 |
+| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Preorder-Traversal) | 2026-10-16 |
+| [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Well-Performing-Interval) | 2026-10-18 |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Palindrome-Linked-List) | 2026-10-17 |
 
 ### LeetCode: String
 
@@ -402,9 +538,29 @@
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Longest-Common-Prefix) | 2026-09-18 |
 | [Mirror Frequency Distance](https://leetcode.com/problems/mirror-frequency-distance/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Mirror-Frequency-Distance) | 2026-09-18 |
 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Reverse-String) | 2026-10-12 |
+| [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Rotate-String) | 2026-10-17 |
 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-Characters-By-Frequency) | 2026-10-12 |
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Valid-Anagram) | 2026-10-12 |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Valid-Palindrome) | 2026-10-12 |
+
+### LeetCode: String Matching
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Rotate-String) | 2026-10-17 |
+
+### LeetCode: Tree
+
+| Problem | Difficulty | Solution | Date Solved |
+| :--- | :--- | :--- | :--- |
+| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Balanced-Binary-Tree) | 2026-10-17 |
+| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Inorder-Traversal) | 2026-10-16 |
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Binary-Tree-Level-Order-Traversal) | 2026-10-16 |
+| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Postorder-Traversal) | 2026-10-16 |
+| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Binary-Tree-Preorder-Traversal) | 2026-10-16 |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Maximum-Depth-of-Binary-Tree) | 2026-10-17 |
+| [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Same-Tree) | 2026-10-17 |
+| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Search-in-a-Binary-Search-Tree) | 2026-10-17 |
 
 ### LeetCode: Trie
 
@@ -416,12 +572,20 @@
 
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
+| [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Delete-the-Middle-Node-of-a-Linked-List) | 2026-10-17 |
+| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Intersection-of-Two-Linked-Lists) | 2026-10-17 |
+| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Linked-List-Cycle) | 2026-10-17 |
+| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Linked-List-Cycle-II) | 2026-10-17 |
+| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Middle-of-the-Linked-List) | 2026-10-17 |
 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Move-Zeroes) | 2026-09-18 |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Palindrome-Linked-List) | 2026-10-17 |
 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Rearrange-Array-Elements-by-Sign) | 2026-09-18 |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Remove-Duplicates-from-Sorted-Array) | 2026-09-18 |
+| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Remove-Nth-Node-From-End-of-List) | 2026-10-17 |
 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Reverse-String) | 2026-10-12 |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Rotate-Array) | 2026-09-18 |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-Colors) | 2026-09-18 |
+| [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Sort-List) | 2026-10-17 |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Easy/Valid-Palindrome) | 2026-10-12 |
 
 ### LeetCode: Union-Find
@@ -429,4 +593,7 @@
 | Problem | Difficulty | Solution | Date Solved |
 | :--- | :--- | :--- | :--- |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Longest-Consecutive-Sequence) | 2026-09-28 |
+| [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Enclaves) | 2026-10-18 |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Islands) | 2026-10-18 |
+| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | [Solution](https://github.com/BainsMayank/Code/tree/HEAD/LeetCode/Medium/Number-of-Provinces) | 2026-10-18 |
 
